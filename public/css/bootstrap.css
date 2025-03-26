@@ -6589,3 +6589,7 @@ section {
 
 .text-github, .text-github-alt:hover {
   color: #000000; }
+
+.bg-light {
+  min-height: 100%;
+}
