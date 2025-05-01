@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import {
+  User
   DollarSign,
   MessagesSquare,
   PersonStanding,
@@ -26,10 +27,10 @@ export const About = ({
                         subheading = "Features",
                         features = [
                           {
-                            title: "Performance",
+                            title: "Age",
                             description:
                               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!",
-                            icon: <Timer className="size-4 md:size-6"/>,
+                            icon: <User className="size-4 md:size-6"/>,
                           },
                           {
                             title: "Innovation",
