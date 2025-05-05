@@ -96,18 +96,21 @@ export const About = ({
           { subheading }
         </p>
         <h2 className="text-3xl font-medium md:pl-5 lg:text-4xl">{ heading }</h2>
-
+        
         <div className="mt-8 bg-accent/10 p-6 rounded-lg md:pl-5">
           <p className="text-base md:text-lg">
-            I'm a passionate self-taught web developer with a focus on creating responsive, user-friendly web applications. 
-            With a strong foundation in modern web technologies and a keen eye for design, I strive to build applications 
+            I'm a passionate self-taught web developer with a focus on creating responsive, user-friendly web
+            applications.
+            With a strong foundation in modern web technologies and a keen eye for design, I strive to build
+            applications
             that not only function flawlessly but also provide an exceptional user experience.
           </p>
         </div>
-
+        
         <div className="mx-auto mt-10 grid gap-x-20 gap-y-8 md:grid-cols-2 md:gap-y-6 lg:mt-14">
           { features.map((feature, idx) => (
-            <div className="flex gap-6 rounded-lg bg-card p-5 shadow-sm transition-all hover:shadow-md md:block" key={ idx }>
+            <div className="flex gap-6 rounded-lg bg-card p-5 shadow-sm transition-all hover:shadow-md md:block"
+                 key={ idx }>
               <span
                 className="mb-8 flex size-10 shrink-0 items-center justify-center rounded-full bg-accent text-accent-foreground md:size-12">
                 { feature.icon }
@@ -124,31 +127,35 @@ export const About = ({
           )) }
         </div>
       </div>
-
+      
       <footer className="mt-20 border-t border-gray-200 bg-gray-50">
         <div className="mx-auto max-w-screen-xl px-4 py-8">
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
             <div>
               <p className="text-sm text-gray-600">
-                © {new Date().getFullYear()} Muhammad Afiq Danial. All rights reserved.
+                © { new Date().getFullYear() } Muhammad Afiq Danial. All rights reserved.
               </p>
               <p className="mt-1 text-xs text-gray-500">
                 Self-taught web developer passionate about creating exceptional user experiences.
               </p>
             </div>
-
+            
             <div className="flex space-x-4">
-              <a href="mailto:m.afiqdanial2004@gmail.com" className="rounded-full p-2 text-gray-600 transition-colors hover:bg-gray-200 hover:text-gray-900">
-                <Mail className="size-5" />
+              <a href="mailto:m.afiqdanial2004@gmail.com"
+                 className="rounded-full p-2 text-gray-600 transition-colors hover:bg-gray-200 hover:text-gray-900">
+                <Mail className="size-5"/>
               </a>
-              <a href="https://github.com/developer" target="_blank" rel="noopener noreferrer" className="rounded-full p-2 text-gray-600 transition-colors hover:bg-gray-200 hover:text-gray-900">
-                <Github className="size-5" />
+              <a href="https://github.com/developer" target="_blank" rel="noopener noreferrer"
+                 className="rounded-full p-2 text-gray-600 transition-colors hover:bg-gray-200 hover:text-gray-900">
+                <Github className="size-5"/>
               </a>
-              <a href="https://linkedin.com/in/developer" target="_blank" rel="noopener noreferrer" className="rounded-full p-2 text-gray-600 transition-colors hover:bg-gray-200 hover:text-gray-900">
-                <Linkedin className="size-5" />
+              <a href="https://linkedin.com/in/developer" target="_blank" rel="noopener noreferrer"
+                 className="rounded-full p-2 text-gray-600 transition-colors hover:bg-gray-200 hover:text-gray-900">
+                <Linkedin className="size-5"/>
               </a>
-              <a href="https://developer-portfolio.com" target="_blank" rel="noopener noreferrer" className="rounded-full p-2 text-gray-600 transition-colors hover:bg-gray-200 hover:text-gray-900">
-                <Globe className="size-5" />
+              <a href="https://developer-portfolio.com" target="_blank" rel="noopener noreferrer"
+                 className="rounded-full p-2 text-gray-600 transition-colors hover:bg-gray-200 hover:text-gray-900">
+                <Globe className="size-5"/>
               </a>
             </div>
           </div>
