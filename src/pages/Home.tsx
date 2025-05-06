@@ -40,6 +40,11 @@ export const Home = () => {
                   About Myself
                 </Button>
                 </Link>
+                <Link to={"/projects"}>
+                <Button className="shadow-sm transition-shadow hover:shadow">
+                  My Projects
+                </Button>
+                </Link>
                 <Link to={"https://github.com/00ZenDaniel"}
                 target="_blank">
                 <Button variant="outline" className="group">
@@ -81,7 +86,7 @@ export const Home = () => {
                       className="h-6 saturate-0 transition-all group-hover:saturate-100"
                     />
                   </Link>
-                  
+
                   <Link
                     to={ "https://react.dev/" }
                     target={ "_blank" }
